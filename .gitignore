@@ -1,20 +1,6 @@
-# Ignorar archivos temporales de Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Ignorar entornos virtuales
+*.pyc
 venv/
-env/
 .env
-
-# Ignorar archivos de datos locales y logs
-bitacora_trading.csv
-*.csv
-*.log
-
-# Ignorar configuraciones de IDE
-.vscode/
-.idea/
-backtest_result.png
-bitacora_trading.csv
+.DS_Store
+trading_log.txt
